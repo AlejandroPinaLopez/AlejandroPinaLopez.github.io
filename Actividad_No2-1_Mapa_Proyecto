@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unidad 1 | Actividad 2</title>
+    <link rel="icon" type="image/x-icon" href= "favicon.ico">
+    <meta charset = "utf-8">
+    <meta name ="Author" content = "Alejandro Piña Lopez">
+    <meta name = "Fecha" content "11 de Febrero de 2025">
+    <meta name= "Descripcion" content = "Titulos">
+  </head>
+  <body>
+    <-- Llenar el Titulo y pegar el contenido -->
+    <h1>Unidad 1 | Actividad 02 - 1 :: Tema (Mapa de Proyecto)</h1>
+    <h1>Matrix Saga</h1>
+    <h2>Historia</h2>
+    <h2>Ficha tecnica</h2>
+    <h2>Reparto</h2>
+    <h2>Premios y Nominaciones</h2>
+    <h2>Datos Curiosos</h2>
+  </body>
+</html>
