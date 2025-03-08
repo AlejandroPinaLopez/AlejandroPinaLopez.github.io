@@ -1,0 +1,11 @@
+p{ text-indent: 15px; line-height: 1.0;}
+h1{
+               background-color: gray;
+               letter-spacing: -2.5px;
+               word-spacing: 10px;
+               text-decoration-line: line-through;
+               text-decoration-color: red;
+               text-decoration-thickness: 5px;
+               text-shadow: 2.5px -2.5px 2.5px lightseagreen;  
+}
+a{ text-decoration: none; background-color: black; color: white;}
