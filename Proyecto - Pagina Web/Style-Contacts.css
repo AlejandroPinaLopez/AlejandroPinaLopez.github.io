@@ -58,6 +58,7 @@ body{
 }
 
 .author-title {
+    color: rgb(161, 196, 37);
     text-align: center;
     font-size: 1.2em;
     font-weight: bold;
@@ -67,6 +68,10 @@ body{
 .author-details {
     text-align: left;
     font-size: 18px; 
+}
+
+.author-details b{  
+    color: rgb(161, 196, 37);
 }
 
 .author-details div {
