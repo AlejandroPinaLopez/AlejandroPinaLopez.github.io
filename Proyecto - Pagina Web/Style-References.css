@@ -63,7 +63,13 @@ body {
 }
 
 .reference-info h2 {
-    color: rgb(144, 212, 65);
+    color: rgb(161, 196, 37);
+    text-shadow:
+        0 0 5px rgb(161, 196, 37),
+        0 0 10px rgb(161, 196, 37),
+        0 0 20px rgb(161, 196, 37),
+        0 0 30px rgb(161, 196, 37);
+
     font-size: 1.5em;
     margin-bottom: 5px;
 }
