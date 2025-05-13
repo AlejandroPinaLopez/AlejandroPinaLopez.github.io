@@ -1,0 +1,191 @@
+<div id="Resurrections_Aparecer" class="Movie_info">
+                <div class="Movie_info_container">
+                    <div class="Table_Container">
+                        <div class="Title1">
+                            <h1>Ficha Tecnica</h1>
+                        </div>
+                        <div class="Table_info">
+                            <table>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="Movie_history_container">
+                        <div class="Title1">
+                            <h1>Historia</h1>
+                        </div>
+                        <div class="History_info">
+                            <p class="History_text"></p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="divider">
+                <div class="Cast_images_container">
+                    <div class="Title1">
+                        <h1>Reparto</h1>
+                    </div>
+                    <div class="Cast_boxes_container">
+                        <div class="Cast_box_">
+                            <div class="Cast_box_links">
+                                <p><a href=""></a></p>
+                            </div>
+                        </div>
+                        <div class="Cast_box_">
+                            <div class="Cast_box_links">
+                                <p><a a href=""></a></p>
+                            </div>
+                        </div>
+                        <div class="Cast_box_">
+                            <div class="Cast_box_links">
+                                <p><a a href=""></a></p>
+                            </div>
+                        </div>
+                    <hr class="divider">
+                    <div class="Nominations_container">
+                        <div class="Title1">
+                            <h1>Premios y Nominaciones</h1>
+                        </div>
+                        <div class="Title3">
+                            <h2>Premios Óscar</h2>
+                        </div>
+                        <div class="Title2">
+                            <h2>Ganadora(4)</h2>
+                        </div>
+                        <div>
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr class="divider">
+                    <div class="Curious_facts_container">
+                        <div class="Curious_facts_image">
+                            
+                        </div>
+                        <div class="Curious_facts_info_container">
+                            <div class="Title1">
+                                <h1>Datos Curiosos</h1>
+                            </div>
+                            <div class="Curious_facts_info">
+                                <ol>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Revolutions_Aparecer" class="Movie_info">
+                <div class="Movie_info_container">
+                    <div class="Table_Container">
+                        <div class="Title1">
+                            <h1>Ficha Tecnica</h1>
+                        </div>
+                        <div class="Table_info">
+                            <table>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="Movie_history_container">
+                        <div class="Title1">
+                            <h1>Historia</h1>
+                        </div>
+                        <div class="History_info">
+                            <p class="History_text"></p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="divider">
+                <div class="Cast_images_container">
+                    <div class="Title1">
+                        <h1>Reparto</h1>
+                    </div>
+                    <div class="Cast_boxes_container">
+                        <div class="Cast_box_">
+                            <div class="Cast_box_links">
+                                <p><a href=""></a></p>
+                            </div>
+                        </div>
+                        <div class="Cast_box_">
+                            <div class="Cast_box_links">
+                                <p><a a href=""></a></p>
+                            </div>
+                        </div>
+                        <div class="Cast_box_">
+                            <div class="Cast_box_links">
+                                <p><a a href=""></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="divider">
+                    <div class="Nominations_container">
+                        <div class="Title1">
+                            <h1>Premios y Nominaciones</h1>
+                        </div>
+                        <div class="Title3">
+                            <h2>Premios Óscar</h2>
+                        </div>
+                        <div class="Title2">
+                            <h2>Ganadora(4)</h2>
+                        </div>
+                        <div>
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr class="divider">
+                    <div class="Curious_facts_container">
+                        <div class="Curious_facts_image">
+                            
+                        </div>
+                        <div class="Curious_facts_info_container">
+                            <div class="Title1">
+                                <h1>Datos Curiosos</h1>
+                            </div>
+                            <div class="Curious_facts_info">
+                                <ol>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>

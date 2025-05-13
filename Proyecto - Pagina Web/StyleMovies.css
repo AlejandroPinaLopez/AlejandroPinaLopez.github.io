@@ -82,7 +82,7 @@ body{
     background-color: rgba(24, 24, 24,0.9);
     box-shadow: 0 0 10px 5px rgba(8, 8, 8, 0.8);
     width: 330px;
-    height: 510px;
+    height: 630px;
     margin-left: 10px;
 }
 
@@ -199,6 +199,31 @@ body{
     
 }
 
+.Movie_item_Animatrix{
+
+    font-size: 22px;
+    color: rgb(161, 196, 37);
+    text-shadow:
+        0 0 5px rgb(161, 196, 37),
+        0 0 10px rgb(161, 196, 37),
+        0 0 20px rgb(161, 196, 37);
+  
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+
+    background-image: url(Animatrix.jpg);
+    box-shadow: 0 0 10px 5px rgba(8, 8, 8, 0.8);
+    border-radius: 2px;
+
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .Movie_info_container{
     display: flex;
     justify-content: space-between;
@@ -218,10 +243,12 @@ body{
     margin-right: 15px;
     border-radius: 2px;
     opacity: 0;
+    display: none;
     transition: opacity 0.5s ease-in-out; 
 }
 
 .Movie_info.show {
+    display: block;
     opacity: 1; 
 }
 
@@ -276,6 +303,15 @@ body{
     color: white;
     
     text-align: justify;
+}
+
+.History_info a{
+    text-decoration: none;
+    color: rgb(161, 196, 37);
+    text-shadow:
+        0 0 5px rgb(161, 196, 37),
+        0 0 10px rgb(161, 196, 37),
+        0 0 20px rgb(161, 196, 37);
 }
 
 .History_info{
@@ -607,6 +643,93 @@ body{
 .Cast_box_RupertReid{
     border-radius: 10px;
     background-image: url(RupertReid.jpg);
+    box-shadow: 0 0 10px 5px rgba(8, 8, 8, 0.8);
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+}
+
+.Cast_box_CourtenayTaylor{
+    border-radius: 10px;
+    background-image: url(CourtenayTaylor.jpg);
+    box-shadow: 0 0 10px 5px rgba(8, 8, 8, 0.8);
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+}
+
+.Cast_box_ClaytonWatson{
+    border-radius: 10px;
+    background-image: url(ClaytonWatson.jpg);
+    box-shadow: 0 0 10px 5px rgba(8, 8, 8, 0.8);
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+}
+
+.Cast_box_PamelaAdlon{
+    border-radius: 10px;
+    background-image: url(PamelaAdlon.jpg);
+    box-shadow: 0 0 10px 5px rgba(8, 8, 8, 0.8);
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+}
+
+.Cast_box_KevinMichaelRichardson {
+    border-radius: 10px;
+    background-image: url(KevinMichaelRichardson.jpg);
+    background-size: cover;
+    box-shadow: 0 0 10px 5px rgba(8, 8, 8, 0.8);
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+}
+
+.Cast_box_JuliaFletcher {
+    border-radius: 10px;
+    background-image: url(JuliaFletcher.jpg);
+    background-size: cover;
+    box-shadow: 0 0 10px 5px rgba(8, 8, 8, 0.8);
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+}
+
+.Cast_box_HedyBurress {
+    border-radius: 10px;
+    background-image: url(HedyBurress.jpg);
+    background-size: cover;
+    box-shadow: 0 0 10px 5px rgba(8, 8, 8, 0.8);
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+}
+
+.Cast_box_DaneDavis {
+    border-radius: 10px;
+    background-image: url(DaneDavis.jpeg);
+    background-size: cover;
+    box-shadow: 0 0 10px 5px rgba(8, 8, 8, 0.8);
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+}
+
+.Cast_box_JohnDiMaggio {
+    border-radius: 10px;
+    background-image: url(JohnDiMaggio.jpg);
+    background-size: cover;
+    box-shadow: 0 0 10px 5px rgba(8, 8, 8, 0.8);
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+}
+
+.Cast_box_TaraStrong {
+    border-radius: 10px;
+    background-image: url(TaraStrong.jpg);
+    background-size: cover;
     box-shadow: 0 0 10px 5px rgba(8, 8, 8, 0.8);
     width: 200px;
     height: 250px;
