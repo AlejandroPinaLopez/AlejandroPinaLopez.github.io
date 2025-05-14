@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Matrix Reloaded</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: black;
+      color: #00ff00;
+      background-image: linear-gradient(black, #000000), url('');
+      background-size: cover;
+      background-repeat: repeat;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #00ff00;
+    }
+    .nav-links a {
+      margin: 0 1rem;
+      color: #00ff00;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .nav-links a:hover {
+      color: white;
+      text-shadow: 0 0 5px #00ff00;
+    }
+    .container {
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    .contact {
+      border-top: 1px solid #00ff00;
+      padding: 1rem;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    .code-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: black;
+      overflow: hidden;
+    }
+    .matrix-code {
+      font-family: monospace;
+      white-space: pre;
+      color: #00ff00;
+      opacity: 0.2;
+      user-select: none;
+      font-size: 12px;
+      animation: drift 10s linear infinite;
+    }
+    @keyframes drift {
+      0% { transform: translateY(-100%); }
+      100% { transform: translateY(100%); }
+    }
+  </style>
+</head>
+<body>
+  <div class="code-background">
+    <div class="matrix-code">
+      01001100 01101001 01100110 01100101 00100000 01101001 01110011 00100000 01100011 01101000 01101111 01101001 01100011 01100101 <br>
+      01001100 01101001 01100110 01100101 00100000 01101001 01110011 00100000 01100011 01101000 01101111 01101001 01100011 01100101 <br>
+      01001100 01101001 01100110 01100101 00100000 01101001 01110011 00100000 01100011 01101000 01101111 01101001 01100011 01100101 <br>
+    </div>
+  </div>
+  <header>
+    <h1>The Matrix Reloaded</h1>
+    <nav class="nav-links">
+      <a href="#story">Story</a>
+      <a href="#characters">Characters</a>
+      <a href="#cast">Cast</a>
+      <a href="#soundtrack">Soundtrack</a>
+    </nav>
+  </header>
+  <div class="container">
+    <section id="story">
+      <h2>Story</h2>
+      <p>
+        In "The Matrix Reloaded", Neo, Trinity, and Morpheus continue their fight against the machines. As Zion prepares for an all-out war, Neo must understand his destiny and the purpose of the Matrix. The team discovers that there may be a way to end the war by reaching the Source of the Matrix. But time is running out, and choices become more difficult as new threats emerge, including the increasingly dangerous Agent Smith.
+      </p>
+    </section>
+
+    <section id="characters">
+      <h2>Characters</h2>
+      <ul>
+        <li><strong>Neo:</strong> The One, prophesied to bring an end to the war.</li>
+        <li><strong>Trinity:</strong> Skilled fighter and Neo's love interest.</li>
+        <li><strong>Morpheus:</strong> Believer in the prophecy, mentor to Neo.</li>
+        <li><strong>Agent Smith:</strong> Rogue program seeking to destroy both the Matrix and the real world.</li>
+        <li><strong>The Merovingian:</strong> A powerful program who traffics in information.</li>
+        <li><strong>Persephone:</strong> The Merovingian's wife, who assists Neo.</li>
+        <li><strong>The Oracle:</strong> Program that guides Neo.</li>
+      </ul>
+    </section>
+
+    <section id="cast">
+      <h2>Cast</h2>
+      <ul>
+        <li>Keanu Reeves as Neo</li>
+        <li>Laurence Fishburne as Morpheus</li>
+        <li>Carrie-Anne Moss as Trinity</li>
+        <li>Hugo Weaving as Agent Smith</li>
+        <li>Monica Bellucci as Persephone</li>
+        <li>Lambert Wilson as The Merovingian</li>
+        <li>Gloria Foster as The Oracle</li>
+      </ul>
+    </section>
+
+    <section id="soundtrack">
+      <h2>Soundtrack</h2>
+      <p>The soundtrack includes powerful tracks from:</p>
+      <ul>
+        <li>"Mona Lisa Overdrive" – Don Davis and Juno Reactor</li>
+        <li>"Burly Brawl" – Don Davis and Juno Reactor</li>
+        <li>"Reload" – Rob Zombie</li>
+        <li>"Sleeping Awake" – P.O.D.</li>
+        <li>"Session" – Linkin Park</li>
+      </ul>
+    </section>
+
+    <section id="extra">
+      <h2>Extra Facts</h2>
+      <ul>
+        <li>Released: May 15, 2003</li>
+        <li>Directed by: The Wachowskis</li>
+        <li>Box Office: Over $742 million worldwide</li>
+        <li>Followed by: The Matrix Revolutions (2003)</li>
+        <li>Visuals: Known for its groundbreaking CGI and action sequences</li>
+        <li>Philosophy: Themes of choice, causality, and free will</li>
+      </ul>
+    </section>
+  </div>
+  <footer class="contact">
+    <p>Contact us at: <a href="mailto:matrix@matrixworld.com">matrix@matrixworld.com</a></p>
+    <p>Follow us:</p>
+    <p>
+      <a href="#">Instagram</a> | <a href="#">Twitter</a> | <a href="#">Facebook</a>
+    </p>
+  </footer>
+</body>
+</html>
