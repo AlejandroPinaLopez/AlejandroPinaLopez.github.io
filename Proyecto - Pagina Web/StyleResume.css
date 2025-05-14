@@ -110,8 +110,20 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
-    align-items: flex-start; 
+    align-items: flex-start;
+    
 }
+
+.container_cast a{
+    text-decoration: none;
+    color: rgb(161, 196, 37);
+    text-shadow:
+        0 0 5px rgb(161, 196, 37),
+        0 0 10px rgb(161, 196, 37),
+        0 0 20px rgb(161, 196, 37);
+    
+}
+
 
 .cast_images_Neo{
     
@@ -195,12 +207,10 @@ body{
     
     text-align: center;
     font-size: 18px;
-    color: rgb(161, 196, 37);
-    text-shadow:
-        0 0 5px rgb(161, 196, 37),
-        0 0 10px rgb(161, 196, 37),
-        0 0 20px rgb(161, 196, 37);
+
 }
+
+
 
 .divider{
     border: none;
