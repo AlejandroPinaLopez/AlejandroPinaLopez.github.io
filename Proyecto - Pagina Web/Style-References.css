@@ -21,11 +21,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%; 
+    width: 100%;
 }
 
 .reference-item {
@@ -36,10 +36,10 @@ body {
     border-radius: 8px;
     padding: 20px;
     margin: 0 40px;
-    width: 33.33%; 
+    width: 24%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     text-align: center;
-    height: 40vh;
+    height: 50vh;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -50,21 +50,25 @@ body {
 .reference-logo {
     width: 80px;
     height: 80px;
-    background-size: contain;
+    background-size: cover; 
     background-repeat: no-repeat;
     margin-bottom: 10px;
 }
 
 .bootstrap-logo {
-    background-image: url('Bootstrap.png'); 
+    background-image: url('Bootstrap.png');
 }
 
 .google-fonts-logo {
-    background-image: url('Google.png'); 
+    background-image: url('Google.png');
 }
 
 .wikipedia-logo {
-    background-image: url('Wikipedia.png'); 
+    background-image: url('Wikipedia.png');
+}
+
+.letterboxd-logo {
+    background-image: url('Letterboxd-logo.jpg');
 }
 
 .reference-info h2 {
