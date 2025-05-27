@@ -127,3 +127,96 @@ body{
     border-bottom: 2px solid rgb(255, 255, 255);
     padding-bottom: 30px;
 }
+
+@media (max-width: 768px) {
+    .authors {
+        flex-direction: column; 
+        height: auto; 
+        position: static; 
+        transform: none; 
+        padding: 20px 0; 
+        align-items: center; /
+    }
+
+    .author {
+        width: 80%;
+        max-width: 400px; 
+        margin-bottom: 30px; 
+        margin-right: 0;
+        margin-left: 0; 
+    }
+
+    .author-image {
+        width: 90px; 
+        height: 250px; 
+        margin-bottom: 15px;
+    }
+
+    .author-details {
+        font-size: 16px; 
+        text-align: center; 
+    }
+
+    
+    .matrix-links a {
+        font-size: 18px; 
+        margin-left: 20px; 
+    }
+
+    .matrix-links a:hover {
+        font-size: 20px; 
+        padding-bottom: 8px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .authors {
+        padding: 15px 0; 
+    }
+
+    .author {
+        width: 95%; 
+        max-width: 350px; 
+        margin-bottom: 20px;
+        padding: 15px; 
+    }
+
+    .author-image {
+        width: 80px;
+        height: 200px; 
+        margin-bottom: 10px;
+    }
+
+    .author-title {
+        font-size: 1em;
+    }
+
+    .author-details {
+        font-size: 14px; 
+    }
+
+    
+    .matrix-link {
+        height: auto; 
+        padding: 10px 0; 
+    }
+
+    .matrix-links {
+        flex-direction: column; 
+        width: 100%;
+        text-align: center; 
+    }
+
+    .matrix-links a {
+        font-size: 16px; 
+        margin: 5px 0; 
+        padding: 5px 0; 
+        border-bottom: none; 
+    }
+
+    .matrix-links a:hover {
+        font-size: 18px; 
+        padding-bottom: 5px; 
+    }
+}

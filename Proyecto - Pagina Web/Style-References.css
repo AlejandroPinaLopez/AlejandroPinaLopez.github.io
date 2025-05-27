@@ -26,6 +26,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+    
 }
 
 .reference-item {
@@ -39,8 +40,9 @@ body {
     width: 24%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     text-align: center;
-    height: 50vh;
+    height: 55vh;
     transition: transform 0.3s ease-in-out;
+    box-sizing: border-box; 
 }
 
 .reference-item:hover {
@@ -50,7 +52,7 @@ body {
 .reference-logo {
     width: 80px;
     height: 80px;
-    background-size: cover; 
+    background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 10px;
 }
@@ -130,4 +132,103 @@ body {
     color: rgb(161, 196, 37);
     border-bottom: 2px solid rgb(255, 255, 255);
     padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .references-container {
+        flex-direction: column; 
+        position: static; 
+        transform: none;
+        padding: 80px 20px 20px 20px;
+        height: auto; 
+        align-items: center; 
+        flex-wrap: wrap; 
+    }
+
+    .reference-item {
+        width: 80%;
+        margin: 15px auto; 
+        height: auto; 
+        padding: 15px; 
+    }
+
+    .reference-logo {
+        width: 70px; 
+        height: 70px;
+    }
+
+    .reference-info h2 {
+        font-size: 1.4em; 
+    }
+
+    .reference-info p {
+        font-size: 0.95em; 
+    }
+
+    .matrix-link {
+        height: auto; 
+        padding: 15px 20px;
+        justify-content: center; 
+        position: sticky; 
+        top: 0;
+    }
+
+    .matrix-links {
+        flex-direction: column; 
+        align-items: center; 
+        width: 100%; 
+    }
+
+    .matrix-links a {
+        font-size: 18px; 
+        margin: 5px 0; 
+        margin-left: 0; 
+        padding-bottom: 5px; 
+    }
+
+    .matrix-links a:hover {
+        font-size: 22px; 
+        padding-bottom: 8px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .references-container {
+        padding: 70px 10px 10px 10px; 
+    }
+
+    .reference-item {
+        width: 95%; 
+        margin: 10px auto; 
+        padding: 10px; 
+    }
+
+    .reference-logo {
+        width: 60px; 
+        height: 60px;
+    }
+
+    .reference-info h2 {
+        font-size: 1.2em; 
+    }
+
+    .reference-info p {
+        font-size: 0.85em; 
+    }
+
+    .matrix-link {
+        padding: 10px;
+    }
+
+    .matrix-links a {
+        font-size: 16px;
+        margin: 3px 0; 
+        padding-bottom: 3px;
+    }
+
+    .matrix-links a:hover {
+        font-size: 19px; 
+        padding-bottom: 6px; 
+    }
 }

@@ -736,7 +736,7 @@ body{
     margin: 20px;
 }
 
-.Cast_box_{ /* Si quieren poner imagenes en un div aqui tienen la base que yo use si es que les sirve*/
+.Cast_box_{ 
     border-radius: 10px;
     background-image: url();
     box-shadow: 0 0 10px 5px rgba(8, 8, 8, 0.8);
@@ -798,6 +798,88 @@ body{
 
 .Curious_facts_info{
     width: 100%;
+}
+
+@media (max-width: 768px) {
+  .Movies_Section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Movies_Container {
+    margin: 0 auto 20px auto;
+    width: 75%;
+  }
+
+  .Movie_info {
+    position: relative;
+    left: 0;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .Movie_info_container {
+    flex-direction: column;
+  }
+
+  .Table_info {
+    width: 100%;
+    border-right: none;
+  }
+
+  .Cast_boxes_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  .Cast_images_container {
+    align-items: center;
+  }
+}
+
+/* 📱 MOBILE - hasta 480px */
+@media (max-width: 480px) {
+  .Movies_Section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Movies_Container {
+    width: 95%;
+    margin: 0 auto 20px auto;
+  }
+
+  .Movie_info {
+    position: relative;
+    left: 0;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .Movie_info_container {
+    flex-direction: column;
+  }
+
+  .Table_info {
+    width: 100%;
+    border-right: none;
+  }
+
+  .Cast_boxes_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  .Cast_images_container {
+    align-items: center;
+  }
+
+  .Cast_boxes_container > div {
+    width: 90%;
+    height: 200px;
+  }
 }
 
 
